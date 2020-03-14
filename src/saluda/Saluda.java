@@ -20,10 +20,12 @@ public class Saluda {
         // TODO code application logic here
         Scanner sc = new Scanner (System.in);
         String nombre;
-        
+        int edad;
         System.out.println("Introduzca su nombre:");
         nombre = sc.nextLine();
-        System.out.println("Hola "+nombre);
+        System.out.println("Introduzca su edad:");
+        edad = sc.nextInt();
+        System.out.println("Hola "+nombre+" con edad "+edad);
     }
     
 }
